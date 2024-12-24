@@ -5,6 +5,11 @@ flutter pub get
 derry generate all
 derry launch dev
 ```
+If you see this 'UnmodifiableUint8ListView' error
+```
+flutter pub upgrade win32
+derry launch dev
+```
 ## Current app screenshots
 <img src="https://github.com/user-attachments/assets/0af3db70-c7c5-49ae-9200-afe691a1acad" width="200px" />
 
