@@ -5,6 +5,12 @@ flutter pub get
 derry generate all
 derry launch dev
 ```
+## Quick build steps for Microsoft windows users without derry
+```
+flutter pub get
+dart run build_runner build --delete-conflicting-outputs
+flutter run --flavor dev --dart-define=flavor=dev
+```
 If you see this 'UnmodifiableUint8ListView' error
 ```
 flutter pub upgrade win32
